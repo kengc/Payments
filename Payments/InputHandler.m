@@ -14,10 +14,11 @@
     char inputChars[255];
     
     //accept man1 and man2
-    
+    NSLog(@"\n");
     NSLog(@"Thank you for shopping at Acme.com");
     NSLog(@"Your total today is $%ld", random);
-    NSLog(@"Please select your payment method: 1: Paypal, 2: Stripe, 3: Amazon \n");
+    NSLog(@"Please select your payment method:\n");
+    NSLog(@"1: Paypal, 2: Stripe, 3: Amazon \n");
     
     fgets(inputChars, 255, stdin);
     

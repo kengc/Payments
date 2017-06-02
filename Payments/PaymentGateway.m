@@ -12,11 +12,23 @@
 @implementation PaymentGateway
 
 -(void)processPaymentAmount:(NSInteger)amount{
-    //-(void)processPaymentAmount:(NSInteger)amount;
-    //[self.delegate kitchenShouldUpgradeOrder:self];
+
     
-    [self.delegate processPaymentAmount:amount];
-    //NSLog(@"Payment gateway here got %ld", (long)amount);
+    BOOL canProcess = [self.delegate canProcessPayment];
+    
+    switch (canProcess) {
+        case YES:{
+            [self.delegate processPaymentAmount:amount];
+        }
+            break;
+        case NO:{
+            NSLog(@"Sorry, can't process your payment\n\n");
+        }
+            break;
+            
+        default:
+            break;
+    }
 }
 
 @end

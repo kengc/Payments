@@ -16,6 +16,8 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
+        do{
+        
         NSInteger random = arc4random_uniform(900) + 100;
         int input = [InputHandler getUserInput:random];
         PaymentGateway *pmtGate = [[PaymentGateway alloc] init];
@@ -46,7 +48,7 @@ int main(int argc, const char * argv[]) {
             default:
                 break;
         }
-        
+        }while(1);
         
     }
     return 0;

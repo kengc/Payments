@@ -13,6 +13,8 @@
 
 -(void)processPaymentAmount:(NSInteger)amount;
 
+-(BOOL)canProcessPayment;
+
 @end
 
 @interface PaymentGateway : NSObject
