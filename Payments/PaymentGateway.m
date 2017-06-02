@@ -8,10 +8,15 @@
 
 #import "PaymentGateway.h"
 
+
 @implementation PaymentGateway
 
 -(void)processPaymentAmount:(NSInteger)amount{
-    NSLog(@"Payment gateway here got %ld", (long)amount);
+    //-(void)processPaymentAmount:(NSInteger)amount;
+    //[self.delegate kitchenShouldUpgradeOrder:self];
+    
+    [self.delegate processPaymentAmount:amount];
+    //NSLog(@"Payment gateway here got %ld", (long)amount);
 }
 
 @end
