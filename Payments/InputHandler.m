@@ -18,7 +18,7 @@
     NSLog(@"Thank you for shopping at Acme.com");
     NSLog(@"Your total today is $%ld", random);
     NSLog(@"Please select your payment method:\n");
-    NSLog(@"1: Paypal, 2: Stripe, 3: Amazon \n");
+    NSLog(@"1: Paypal, 2: Stripe, 3: Amazon, 4: Apple Pay\n");
     
     fgets(inputChars, 255, stdin);
     

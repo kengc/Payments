@@ -28,7 +28,7 @@
         default:
             break;
     }
-    return 1;
+    return 0;
 }
 
 @end

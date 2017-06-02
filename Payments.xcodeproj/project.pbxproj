@@ -10,6 +10,7 @@
 		7308935D1EE20F3A006B9519 /* PaypalPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7308935C1EE20F3A006B9519 /* PaypalPaymentService.m */; };
 		730893601EE20F86006B9519 /* StripePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7308935F1EE20F86006B9519 /* StripePaymentService.m */; };
 		730893631EE20F94006B9519 /* AmazonPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 730893621EE20F93006B9519 /* AmazonPaymentService.m */; };
+		730893661EE21A14006B9519 /* ApplePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 730893651EE21A14006B9519 /* ApplePaymentService.m */; };
 		73FB0B0C1EE20837001B1E51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FB0B0B1EE20837001B1E51 /* main.m */; };
 		73FB0B141EE20864001B1E51 /* PaymentGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FB0B131EE20864001B1E51 /* PaymentGateway.m */; };
 		73FB0B171EE20942001B1E51 /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FB0B161EE20942001B1E51 /* InputHandler.m */; };
@@ -34,6 +35,8 @@
 		7308935F1EE20F86006B9519 /* StripePaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StripePaymentService.m; sourceTree = "<group>"; };
 		730893611EE20F93006B9519 /* AmazonPaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonPaymentService.h; sourceTree = "<group>"; };
 		730893621EE20F93006B9519 /* AmazonPaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonPaymentService.m; sourceTree = "<group>"; };
+		730893641EE21A14006B9519 /* ApplePaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplePaymentService.h; sourceTree = "<group>"; };
+		730893651EE21A14006B9519 /* ApplePaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplePaymentService.m; sourceTree = "<group>"; };
 		73FB0B081EE20837001B1E51 /* Payments */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Payments; sourceTree = BUILT_PRODUCTS_DIR; };
 		73FB0B0B1EE20837001B1E51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		73FB0B121EE20864001B1E51 /* PaymentGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentGateway.h; sourceTree = "<group>"; };
@@ -75,6 +78,8 @@
 				73FB0B0B1EE20837001B1E51 /* main.m */,
 				73FB0B151EE20942001B1E51 /* InputHandler.h */,
 				73FB0B161EE20942001B1E51 /* InputHandler.m */,
+				730893641EE21A14006B9519 /* ApplePaymentService.h */,
+				730893651EE21A14006B9519 /* ApplePaymentService.m */,
 				730893611EE20F93006B9519 /* AmazonPaymentService.h */,
 				730893621EE20F93006B9519 /* AmazonPaymentService.m */,
 				7308935E1EE20F86006B9519 /* StripePaymentService.h */,
@@ -147,6 +152,7 @@
 				730893631EE20F94006B9519 /* AmazonPaymentService.m in Sources */,
 				730893601EE20F86006B9519 /* StripePaymentService.m in Sources */,
 				73FB0B0C1EE20837001B1E51 /* main.m in Sources */,
+				730893661EE21A14006B9519 /* ApplePaymentService.m in Sources */,
 				73FB0B171EE20942001B1E51 /* InputHandler.m in Sources */,
 				73FB0B141EE20864001B1E51 /* PaymentGateway.m in Sources */,
 				7308935D1EE20F3A006B9519 /* PaypalPaymentService.m in Sources */,

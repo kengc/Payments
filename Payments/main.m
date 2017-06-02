@@ -12,6 +12,7 @@
 #import "AmazonPaymentService.h"
 #import "StripePaymentService.h"
 #import "PaypalPaymentService.h"
+#import "ApplePaymentService.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -44,7 +45,12 @@ int main(int argc, const char * argv[]) {
                 [pmtGate processPaymentAmount:random];
             }
                 break;
-                
+            case 4:{
+                ApplePaymentService *applePay = [[ApplePaymentService alloc] init];
+                pmtGate.delegate = applePay;
+                [pmtGate processPaymentAmount:random];
+            }
+                break;
             default:
                 break;
         }
